@@ -111,6 +111,10 @@ Evented, parser, declare, kernel, array, lang, domClass, Deferred, all, arcgisUt
             if (this.config.proxyurl) {
                 esriConfig.defaults.io.proxyUrl = this.config.proxyurl;
                 esriConfig.defaults.io.alwaysUseProxy = false;
+		esri.addProxyRule({
+		    proxyUrl: "/proxy/proxy.ashx",
+		    urlPrefix: "http://sjcgis.org/arcgis/rest/services/PublicInput"
+		});
             }
 
             //check sign-in status 
