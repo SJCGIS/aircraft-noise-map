@@ -1,7 +1,9 @@
 San Juan County Aircraft Noise Reports Map
 ==========================
 
-This is a simple, read-only map showing all reports from the San Juan County Jet Noise Reporting application. 
+This is a simple, read-only map showing all reports from the San Juan County Jet Noise Reporting application.
+
+Click on a dot to read the report.
 
 #Licensing 
 
